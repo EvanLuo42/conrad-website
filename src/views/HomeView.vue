@@ -52,6 +52,6 @@ import ProductFeatures from '@/components/ProductFeatures.vue';
   justify-content: space-between;
   margin-inline-start: 20%;
   margin-inline-end: 20%;
-  margin-bottom: 100px;
+  margin-bottom: 10%;
 }
 </style>

@@ -36,8 +36,9 @@ img {
 }
 
 .content {
-  width: 50%;
+  max-width: 740px;
   display: flex;
   flex-direction: column;
+  margin-bottom: 50px;
 }
 </style>

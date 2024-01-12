@@ -10,6 +10,6 @@ footer {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin: 20px;
+  height: 50px;
 }
 </style>

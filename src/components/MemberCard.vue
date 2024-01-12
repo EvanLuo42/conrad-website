@@ -25,7 +25,7 @@ span {
 .member-card {
   display: flex;
   flex-direction: row;
-  min-width: 50%;
+  max-width: 800px;
   margin-inline-start: auto;
   margin-inline-end: auto;
 }
