@@ -3,22 +3,20 @@
     <h1 class="title">Product</h1>
     <div class="content">
       <h2>Hardware</h2>
-      <span>A fixed point to record occipital lobe EEG response for SSVEP recordings.
-Pz, P3, P4, Oz, O1, O2
-
-Points at prefrontal cortex to decode the user’s intention to present in the wording column.
-
-Cheap and accessible 3D printed hardware and dry electrodes
-
-Accessible batteries and chip to receive EEG signals from the brain
-
-      </span>
+      <span>We developmed a wearable headset that is cheap and could hold up to 16 channels of dry electrodes. We covered all the spots that is required for the SSVEP paradigm (Oz, Pz, P3, P4, O1, O2) as well as spots in prefrontal cortex for neural mapping. The headset could be minor adjusted to make every user comfortable. The batteries we use are accessible to all countries. We will assemble all the wires and electrodes before sending to the customer to make sure they could be used right when they received the product. </span>
       <div class="images">
         <img src="/product.jpg">
         <img src="/eeg.jpg">
       </div>
       <h2>Software</h2>
-      <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+      <span>In our software, we integrated the neural mapping and decoding model with real-time SSVEP data stream processing to reach the following effects:</span>
+      <br>
+      <span>1. When the user stares at a certain letter, the SSVEP processing software identifies the letter and show it in red, the second block starts to generate common decoding phrases based on subsequent neural EEG signals</span>
+      <br>
+      <span>2. Then the user choose from multiple options by staring at the numbers the exact response</span>
+      <br>
+      <span>3. The user can use the audio button to read out the content</span>
+      <img src="/software.jpg">
     </div>
   </main>
 </template>
