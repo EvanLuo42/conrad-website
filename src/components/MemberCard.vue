@@ -17,6 +17,11 @@ defineProps<{
 </template>
 
 <style scoped>
+span {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 .member-card {
   display: flex;
   flex-direction: row;
