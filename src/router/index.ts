@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import ProductView from '@/views/ProductView.vue'
 import PlanView from '@/views/PlanView.vue'
 import ContactView from '@/views/ContactView.vue'
+import MembersView from '@/views/MembersView.vue'
 
 export const routes = [
   {
@@ -18,7 +19,7 @@ export const routes = [
   {
     path: '/members',
     name: 'Team Members',
-    component: ProductView
+    component: MembersView
   },
   {
     path: '/plan',
