@@ -13,10 +13,15 @@ import ProductFeatures from '@/components/ProductFeatures.vue';
       </div>
     </div>
     <div class="features">
-      <ProductFeatures title="Non-invasive" description="ABCJDKFJKJSKFJKSJDLKFJ"></ProductFeatures>
+      <ProductFeatures title="Non-invasive" description="Our product use EEG recording electrodes. No neural surgeries are required.
+Users only need to put on a headset like wearing a hat.
+"></ProductFeatures>
       <ProductFeatures title="Fast Decoding Speed
-" description="ABCJDKFJKJSKFJKSJDLKFJ"></ProductFeatures>
-      <ProductFeatures title="Cheap and Accessible" description="ABCJDKFJKJSKFJKSJDLKFJ"></ProductFeatures>
+" description="Integrating neural decoding, the generative power of RWKV LLM,
+we achive a very fast decoding speed for daily use.
+"></ProductFeatures>
+      <ProductFeatures title="Cheap and Accessible" description="Our headset are 3D-printed, which makes our product cheap and accessible to all.
+Our software are easy to install and have a friendly User Interface"></ProductFeatures>
     </div>
   </main>
 </template>
@@ -53,5 +58,7 @@ import ProductFeatures from '@/components/ProductFeatures.vue';
   margin-inline-start: 20%;
   margin-inline-end: 20%;
   margin-bottom: 10%;
+  text-align: justify;
+  text-justify: newspaper;
 }
 </style>
