@@ -17,6 +17,13 @@
       <br>
       <span>3. The user can use the audio button to read out the content</span>
       <img src="/software.jpg">
+
+      <h2>Innovation Origin</h2>
+      <span>Inspired by the concept of Neural mapping and semantic reconstruction from non-invasive neural signals</span>
+      <br>
+      <span>Fused with the generative power of RWKV large language models</span>
+      <br>
+      <span>A softmax layer is used to integrate the results of Neural Mapping(Decoding) and Generated results of RWKV model</span>
     </div>
   </main>
 </template>
