@@ -2,6 +2,7 @@
   <main>
     <h1 class="title">Product</h1>
     <div class="content">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/YJ8GaoDCpM0?si=XdMOExdP6zHfnlFh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       <h2>Hardware</h2>
       <span>We developmed a wearable headset that is cheap and could hold up to 16 channels of dry electrodes. We covered all the spots that is required for the SSVEP paradigm (Oz, Pz, P3, P4, O1, O2) as well as spots in prefrontal cortex for neural mapping. The headset could be minor adjusted to make every user comfortable. The batteries we use are accessible to all countries. We will assemble all the wires and electrodes before sending to the customer to make sure they could be used right when they received the product. </span>
       <div class="images">
@@ -33,6 +34,11 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+iframe {
+  margin: 0 auto;
+  margin-top: 50px;
 }
 
 h2 {
